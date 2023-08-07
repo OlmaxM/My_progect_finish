@@ -1,0 +1,395 @@
+body{
+    margin:0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    margin: 0;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(260.33deg, #0047FF -13.37%, #00BCD4 109.53%);
+}
+header a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    color: #848895;
+
+
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    align-items:center;
+}
+.nav button {
+    margin-left: 30%;
+    background: black;
+    color: #848895;
+    border:0;
+}
+main{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    width: 100vw;
+    height: 60vh;
+    background: #000000;
+}
+h2{
+    font-size: 60px;
+    margin: 0;
+    color: #ffffff;
+
+}
+h3{
+    font-size: 58px;
+margin: 0;
+    color: #ffffff;
+
+
+}
+h6{
+    font-size: 16px;
+    color: #ffffff;
+
+}
+#Start\ building{
+    width: 20vw;
+    height: 10vh;
+
+    border-radius: 36px;
+    background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%),
+    linear-gradient(0deg, #000000, #000000);
+    color: #ffffff;
+}
+#Read\ docs{
+    width: 20vw;
+    height: 10vh;
+
+    border-radius: 36px;
+    background: #000000;
+    border-color: white;
+    color: #ffffff;
+}
+#input{
+    background: #000000;
+    margin: 0;
+}
+section{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    width: 100vw;
+    height: 25vh;
+    background: #000000;
+}
+section h6 {
+   background: #000000;
+    color: #618ADC;
+}
+section img{
+    margin-right: 1vw;
+}
+.community{
+    margin: 0;
+    justify-content: center;
+    align-items:center ;
+    width: 100vw;
+}
+.A{
+    margin: 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: #000000;
+}
+.Join{
+    margin: 0;
+    width: 30vw;
+    font-size: 30px;
+    color: white;
+}
+.Join h4{
+    margin: 0;
+}
+.nummer{
+    margin: 0;
+    justify-content: center;
+    align-items:center ;
+    width: 50vw;
+}
+.nummer h1 {
+    margin: 5vh 0 0 0;
+    font-size: 100px;
+    color: white;
+}
+.nummer h7{
+    color: white;
+}
+.Meid{
+
+    margin: 0;
+    width: 20vw;
+    font-size: 30px;
+    color: white;
+    background: #000000;
+}
+.Meid h4 {
+    margin: 0;
+}
+.Meid h7 {
+    margin: 0;
+}
+.B{
+    margin: 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: #000000;
+    color: white;
+    width: 100vw;
+}
+
+
+.text{
+    margin: 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: #000000;
+    color: white;
+    width: 60vw;
+    height: 80vh;
+}
+.Box1 , .Box2, .Box3, .Box4 {
+
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vh;
+    margin-top: 10vh;
+
+}
+.Box_bord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: #000000;
+}
+.bord{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 75vw;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+.bord h4{
+    font-size: 30px;
+}
+.nav2 {
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    width: 50%;
+}
+.nav2 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    background: rgba(17, 17, 17, 1);
+    width: 6vw;
+    height: 5vh;
+    border: 1px solid rgba(17, 17, 17, 1);
+    border-radius: 15px;
+     color: #848895;
+}
+.Box_boye{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 75vw;
+    background-color: #1e1a1a;
+    color: #ffffff;
+    border-radius: 20px;
+}
+.Box_bord2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #000000;
+}
+.ANYBODIES{
+    width: 25vw;
+    background-color: #1e1a1a;
+    margin-right: 12vw;
+    margin-left: 5vw;
+
+}
+.ANYBODIES a{
+    text-decoration: none;
+    color:rgba(169, 98, 255, 1);
+
+}
+.Emblemi {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 75vw;
+    height: 8vh;
+    background: rgba(38, 31, 38, 0.3);
+border-radius: 20px;
+    margin-top: 1vw;
+}
+.Box_bord3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    width:75vw;
+}
+.Box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #000000;
+
+}
+.Box5_2{
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3vh ;
+}
+h10{
+    font-size: 50px;
+    margin-left : 10vw;
+}
+
+
+.BoxText {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 0;
+    background: rgba(25, 22, 28, 1);
+    border-radius: 1vw;
+    padding: 0 10%
+}
+
+.Box5_2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.BoxText h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    margin-right: 10px;
+    margin-bottom: 0;
+    height: 80px;
+
+    color:  rgba(25, 251, 155, 1);
+}
+.BoxText h11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgba(186, 186, 186, 1);
+
+}
+.Box_bord3{
+    width: 100vw;
+}
+.Box5_3{
+    display: block;
+    justify-content: center;
+    align-items: center;
+margin: 2%;
+}
+.BoxText2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+    background: rgba(25, 22, 28, 1);
+    border-radius: 1vw;
+padding: 0 10%}
+.BoxText2 h11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgba(186, 186, 186, 1);
+margin-bottom: 30%}
+.BoxText2 h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    margin-right: 10px;
+    margin-bottom: 0;
+    height: 80px;
+    color:  rgba(25, 251, 155, 1)}
+h10 {
+    width: 100%;
+    color: white;
+}
+.h10{  background-color: #000000;}
+#Start\ building2{
+    width: 20vw;
+    height: 10vh;
+
+    border-radius: 36px;
+    background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%),
+    linear-gradient(0deg, #000000, #000000);
+    color: #ffffff;
+}
+.finish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+.finish h6{
+    font-size: 40px;}
+.finish input{
+    margin-left: 30%;}
+footer{
+    display: flex;
+    padding: 10vh;
+    background-color: black;
+    color:  rgba(186, 186, 186, 1); ;
+}
+
+.Bloc7{
+    width: 50%;
+}.Bloc2{
+    width: 15%;
+}.Bloc3{
+    width: 15%;
+}.Bloc4{
+    width: 15%;
+}
